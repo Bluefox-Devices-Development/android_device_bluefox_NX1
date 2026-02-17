@@ -33,6 +33,11 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/android.hardware.audio.core-impl-mediatek.so': blob_fixup()
         .add_needed('libaudioutils_shim.so')
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
+    (
+        'vendor/lib/libGsFace_ca.so',
+        'vendor/lib64/libGsFace_ca.so',
+    ): blob_fixup()
+        .add_needed('libteec.so'),
     'vendor/bin/mnld': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
     (
