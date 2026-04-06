@@ -63,6 +63,15 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy': blob_fixup()
         .add_line_if_missing('uname: 1')
         .add_line_if_missing('sysinfo: 1'),
+    (
+        'vendor/bin/hw/android.hardware.media.c2-mediatek-64b',
+        'vendor/lib64/libcodec2_mtk_vdec.so',
+        'vendor/lib64/libcodec2_mtk_venc.so',
+    ): blob_fixup()
+        .replace_needed('libcodec2_aidl.so', 'libcodec2_aidl-mtk.so'),
+    'vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc': blob_fixup()
+        .regex_replace(r'android\.hardware\.media\.c2-mediatek', 'android.hardware.media.c2-mediatek-64b')
+        .regex_replace(r'\n+\Z', '\n'),
     'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     'vendor/lib64/libutinterface_custom_md.so': blob_fixup()
