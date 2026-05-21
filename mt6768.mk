@@ -44,5 +44,9 @@ TARGET_BOARD_PLATFORM := mt6768
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Verified Boot
+PRODUCT_PACKAGES += \
+    android.software.verified_boot.prebuilt.xml
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/mt6768-common/mt6768-common-vendor.mk)
