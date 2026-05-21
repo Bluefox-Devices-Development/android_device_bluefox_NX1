@@ -13,5 +13,10 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := cortex-a75
 
+# Bootloader
+BOARD_VENDOR := motorola
+TARGET_BOOTLOADER_BOARD_NAME := mt6768
+TARGET_NO_BOOTLOADER := true
+
 # Inherit the proprietary files
 include vendor/motorola/mt6768-common/BoardConfigVendor.mk
