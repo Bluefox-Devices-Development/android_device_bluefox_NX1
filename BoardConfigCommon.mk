@@ -99,6 +99,7 @@ BOARD_USES_METADATA_PARTITION := true
 # Recovery
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
