@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.recovery.mt6768.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6768.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
