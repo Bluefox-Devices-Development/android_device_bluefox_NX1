@@ -4,20 +4,26 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-from extract_utils.main import (
-    ExtractUtils,
-    ExtractUtilsModule,
-)
+from extract_utils.fixups_blob import blob_fixup, blob_fixups_user_type
+from extract_utils.main import ExtractUtils, ExtractUtilsModule
 
 namespace_imports = [
-    'device/motorola/mt6768-common',
+    'device/bluefox/NX1',
     'hardware/mediatek',
+    'hardware/mediatek/libmtkperf_client',
 ]
 
+blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libimsma.so': blob_fixup()
+        .replace_needed('libsink.so', 'libsink-mtk.so'),
+}
+
 module = ExtractUtilsModule(
-    'mt6768-common',
-    'motorola',
+    'NX1',
+    'bluefox',
     namespace_imports=namespace_imports,
+    blob_fixups=blob_fixups,
+    add_firmware_proprietary_file=True,
 )
 
 if __name__ == '__main__':
