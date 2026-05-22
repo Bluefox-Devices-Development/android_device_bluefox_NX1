@@ -45,7 +45,8 @@ TARGET_BOARD_PLATFORM := mt6768
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/mediatek
 
 # Verified Boot
 PRODUCT_PACKAGES += \
