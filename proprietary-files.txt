@@ -462,11 +462,11 @@ vendor/lib64/libpqtuning.so
 vendor/lib64/libpqxmlparser.so
 vendor/lib64/libsdrparser.so
 vendor/lib64/libsilkybrightnesscore.so
-vendor/lib64/mt6768/libdpframework.so
-vendor/lib64/mt6768/libmml.so
-vendor/lib64/mt6768/libmmlpqImpl.so
-vendor/lib64/mt6768/libpq_sec.so
-vendor/lib64/mt6768/libpqparamparser.so
+vendor/lib64/mt6768/libdpframework.so;SYMLINK=vendor/lib64/libdpframework.so
+vendor/lib64/mt6768/libmml.so;SYMLINK=vendor/lib64/libmml.so
+vendor/lib64/mt6768/libmmlpqImpl.so;SYMLINK=vendor/lib64/libmmlpqImpl.so
+vendor/lib64/mt6768/libpq_sec.so;SYMLINK=vendor/lib64/libpq_sec.so
+vendor/lib64/mt6768/libpqparamparser.so;SYMLINK=vendor/lib64/libpqparamparser.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmlpq-V3-ndk.so
