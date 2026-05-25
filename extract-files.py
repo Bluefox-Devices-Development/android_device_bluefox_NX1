@@ -27,9 +27,11 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
     (
         'vendor/bin/hw/android.hardware.audio.service-aidl.mediatek',
-        'vendor/lib64/android.hardware.audio.core-impl-mediatek.so',
         'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so',
     ): blob_fixup()
+        .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
+    'vendor/lib64/android.hardware.audio.core-impl-mediatek.so': blob_fixup()
+        .add_needed('libaudioutils_shim.so')
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
     'vendor/bin/mnld': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
