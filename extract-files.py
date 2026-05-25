@@ -16,7 +16,13 @@ namespace_imports = [
 blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libimsma.so': blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
-}
+    (
+        'vendor/bin/hw/android.hardware.audio.service-aidl.mediatek',
+        'vendor/lib64/android.hardware.audio.core-impl-mediatek.so',
+        'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so',
+    ): blob_fixup()
+        .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
+}  # fmt: skip
 
 module = ExtractUtilsModule(
     'NX1',

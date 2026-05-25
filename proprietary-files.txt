@@ -350,6 +350,7 @@ vendor/lib64/soundfx/libnssw_mtk.so
 vendor/lib64/soundfx/libpreprocessingaidl_mtk.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
+vendor/lib64/libaudio_aidl_conversion_common_ndk.so:vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so;DISABLE_DEPS;FIX_SONAME
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocomponentengine_vendor.so
