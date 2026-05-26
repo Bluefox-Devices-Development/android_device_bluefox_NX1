@@ -33,6 +33,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/android.hardware.audio.core-impl-mediatek.so': blob_fixup()
         .add_needed('libaudioutils_shim.so')
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
+    'vendor/lib64/hw/audio.primary.mt6768.so': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     (
         'vendor/lib/libGsFace_ca.so',
         'vendor/lib64/libGsFace_ca.so',
