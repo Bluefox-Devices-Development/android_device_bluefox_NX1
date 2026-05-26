@@ -59,6 +59,12 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     'vendor/lib64/libutinterface_custom_md.so': blob_fixup()
         .add_needed('libutinterface_md.so'),
+    (
+        'vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so',
+        'vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so',
+        'vendor/lib64/libpqxmlparser.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
