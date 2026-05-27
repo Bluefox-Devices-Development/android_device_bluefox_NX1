@@ -255,8 +255,8 @@ ro.vendor.mtk_trustonic_tee_support=1
 # USB
 ro.vendor.usb.kpoc_adb=0
 vendor.usb.controller=musb-hdrc
-vendor.usb.pid=0x2E81
-vendor.usb.vid=0x22B8
+vendor.usb.pid=0x201C
+vendor.usb.vid=0x0E8D
 
 # Wi-Fi
 ro.vendor.wifi.sap.concurrent.iface=ap1

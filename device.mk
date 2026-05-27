@@ -249,6 +249,7 @@ PRODUCT_PACKAGES += \
     init.insmod.sh \
     init.modem.rc \
     init.mt6768.rc \
+    init.mt6768.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
     init.recovery.mt6768.rc \
