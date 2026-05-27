@@ -697,7 +697,7 @@ vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 
 # NVRAM
-vendor/bin/fuelgauged
+vendor/bin/fuelgauged|862119a2c11b364ed31f4e94818378e6753553de
 vendor/bin/fuelgauged_nvram
 vendor/bin/hw/vendor.mediatek.hardware.nvram-service
 vendor/bin/nvram_daemon
