@@ -609,6 +609,20 @@ vendor/lib64/libvp8dec_sa.ca7.so
 vendor/lib64/libvp9dec_sa.ca7.so
 vendor/lib64/vpp_hdrmeta_handler_plugin.so
 
+# Media VPU
+vendor/bin/v3avpud
+vendor/etc/init/v3avpud.rc
+vendor/lib/libaedv.so
+vendor/lib/libbwc.so
+vendor/lib/libgz_uree.so
+vendor/lib/libion_mtk.so
+vendor/lib/libion_ulit.so
+vendor/lib/libladder.so
+vendor/lib/mt6768/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
+vendor/lib/libvcodec_utility_v3a.so
+vendor/lib/libvcodecdrv_v3a.so
+vendor/lib/libvpudv3a_vcodec.so
+
 # Media (Codec2)
 vendor/bin/hw/android.hardware.media.c2-mediatek-64b
 vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc
