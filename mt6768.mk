@@ -57,6 +57,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# Overlay
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
