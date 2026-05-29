@@ -85,5 +85,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.software.verified_boot.prebuilt.xml
 
+# VNDK
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/mt6768-common/mt6768-common-vendor.mk)
