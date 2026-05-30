@@ -14,5 +14,8 @@ include $(DEVICE_PATH)/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 400
 
+# Recovery
+TARGET_RECOVERY_DENSITY := xhdpi
+
 # Inherit the proprietary files
 include vendor/bluefox/NX1/BoardConfigVendor.mk
