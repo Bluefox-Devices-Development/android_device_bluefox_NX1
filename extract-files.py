@@ -21,6 +21,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsensorndkbridge.so',
     ): blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
+    'vendor/lib64/libmtkcam_hal_aidl_common.so': blob_fixup()
+        .replace_needed('android.hardware.camera.common-V2-ndk.so', 'android.hardware.camera.common-V1-ndk.so'),
     (
         'vendor/bin/hw/android.hardware.audio.service-aidl.mediatek',
         'vendor/lib64/android.hardware.audio.core-impl-mediatek.so',
