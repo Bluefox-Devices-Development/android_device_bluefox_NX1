@@ -36,8 +36,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/egl/libGLES_mali.so',
         'vendor/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so',
         'vendor/lib64/hw/mapper.mediatek.so',
+        'vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so',
         'vendor/lib64/libcodec2_fsr.so',
         'vendor/lib64/libgpud.so',
+        'vendor/lib64/libmtkcam_grallocutils.so',
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so',
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so',
     ): blob_fixup()
