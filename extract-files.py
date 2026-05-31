@@ -27,6 +27,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so',
     ): blob_fixup()
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
+    'vendor/bin/mnld': blob_fixup()
+        .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
