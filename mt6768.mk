@@ -66,6 +66,9 @@ $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Properties
+include hardware/mediatek/configs/properties/vendor_logtag.mk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.enableswap
