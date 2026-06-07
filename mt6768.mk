@@ -63,6 +63,9 @@ PRODUCT_PACKAGES += \
 # Overlay
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
+PRODUCT_PACKAGES += \
+    NcmTetheringOverlay
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
