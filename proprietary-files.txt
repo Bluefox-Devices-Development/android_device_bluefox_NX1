@@ -870,10 +870,8 @@ vendor/lib64/libteec.so
 
 # Consumer IR (NX1)
 vendor/bin/hw/android.hardware.ir-service.example
-vendor/etc/init/android.hardware.ir-service.example.rc
-vendor/etc/permissions/android.hardware.consumerir.prebuilt.xml
-vendor/etc/permissions/android.hardware.consumerir.xml
-vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml
+vendor/etc/init/android.hardware.ir-service.example.rc:vendor/etc/init/android.hardware.ir-service.example.mediatek.rc
+vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml:vendor/etc/vintf/manifest/android.hardware.ir-service.example.mediatek.xml
 vendor/lib/hw/consumerir.common.so
 vendor/lib64/hw/consumerir.common.so
 
