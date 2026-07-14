@@ -1,0 +1,12 @@
+# Audio
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.config.alarm_vol_default=6
+ro.config.alarm_vol_steps=7
+ro.config.media_vol_default=5
+ro.config.vc_call_vol_default=6
+ro.config.vc_call_vol_steps=8
+
+# Radio
+ro.vendor.mtk_telephony_add_on_policy=0
+vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=mtk-ril.so

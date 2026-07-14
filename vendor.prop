@@ -1,0 +1,29 @@
+# Camera
+persist.vendor.camera3.pipeline.bufnum.base.imgo=3
+persist.vendor.camera3.pipeline.bufnum.base.lcso=4
+persist.vendor.camera3.pipeline.bufnum.base.rrzo=3
+persist.vendor.camera3.pipeline.bufnum.base.rsso=4
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.fdyuv=5
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=6
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.lcso=7
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rrzo=5
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rsso=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.fdyuv=5
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=5
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=5
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=5
+ro.vendor.camera.insensorzoom.support=0
+ro.vendor.camera.isp.support.colorspace=0
+ro.vendor.camera3.zsl.default=140
+ro.vendor.mtk_cam_security_support=1
+
+# Display
+ro.sf.lcd_density=269
+
+# Product identity
+ro.product.vendor.brand=BLUEFOX
+ro.product.vendor.name=BF001
+ro.product.vendor.device=BLUEFOX
+ro.product.vendor.model=NX1
+ro.product.vendor.manufacturer=BLUEFOX
