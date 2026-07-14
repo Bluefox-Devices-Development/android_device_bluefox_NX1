@@ -20,10 +20,3 @@ ro.vendor.mtk_cam_security_support=1
 
 # Display
 ro.sf.lcd_density=269
-
-# Product identity
-ro.product.vendor.brand=BLUEFOX
-ro.product.vendor.name=BF001
-ro.product.vendor.device=BLUEFOX
-ro.product.vendor.model=NX1
-ro.product.vendor.manufacturer=BLUEFOX
