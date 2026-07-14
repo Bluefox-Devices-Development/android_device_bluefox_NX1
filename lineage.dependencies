@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "android_device_bluefox_NX1-kernels",
+    "target_path": "device/bluefox/NX1-kernels",
+    "remote": "github"
+  },
+  {
+    "repository": "android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  }
+]
