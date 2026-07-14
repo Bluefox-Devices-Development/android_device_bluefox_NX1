@@ -1,0 +1,95 @@
+{
+    "Sensors":[
+        {
+            "Name":"mtktscpu",
+            "Type":"CPU",
+            "Multiplier": 0.001,
+            "Monitor": true,
+            "PollingDelay": 5000,
+            "PassiveDelay": 2000,
+            "HotThreshold":[ "NaN", "NaN", "NaN", 85.0, 90.0, 100.0, 117.0 ],
+            "VrThreshold": "NaN",
+            "BindedCdevInfo": [
+                {
+                    "CdevRequest": "cpu_adaptive_0",
+                    "LimitInfo": [ 0, 0, 0, 0, 0, 1, 1 ]
+                },
+                {
+                    "CdevRequest": "cpu_adaptive_1",
+                    "LimitInfo": [ 0, 0, 0, 0, 1, 1, 1 ]
+                },
+                {
+                    "CdevRequest": "cpu_adaptive_2",
+                    "LimitInfo": [ 0, 0, 0, 1, 1, 1, 1 ]
+                },
+                {
+                    "CdevRequest": "devfreq-13040000.mali",
+                    "LimitInfo": [ 0, 0, 0, 2, 5, 12, 20 ]
+                }
+            ]
+        },
+        {
+            "Name":"SOC",
+            "Type":"SOC",
+            "ZoneName": "mtktscpu",
+            "Multiplier": 0.001,
+            "HotThreshold":[ "NaN", "NaN", "NaN", 85.0, 90.0, 100.0, 117.0 ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name":"battery",
+            "Type":"BATTERY",
+            "Multiplier": 0.001,
+            "HotThreshold":[ "NaN", "NaN", "NaN", 50.0, 55.0, 59.0, 60.0 ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name":"mtktsAP",
+            "Type":"SKIN",
+            "Multiplier": 0.001,
+            "HotThreshold":[ "NaN", 43.0, 45.0, 50.0, 70.0, 80.0, 90.0 ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name":"mtktsbtsnrpa",
+            "Type":"POWER_AMPLIFIER",
+            "ZoneName": "mtktspa",
+            "Multiplier": 0.001,
+            "HotThreshold":[ "NaN", "NaN", "NaN", 68.0, 90.0, 100.0, 110.0 ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name":"mtktsbtsmdpa",
+            "Type":"POWER_AMPLIFIER",
+            "Multiplier": 0.001,
+            "HotThreshold":[ "NaN", "NaN", "NaN", 68.0, 90.0, 100.0, 110.0 ],
+            "VrThreshold": "NaN"
+        }
+    ],
+    "CoolingDevices":[
+        {
+            "Name":"cpu_adaptive_0",
+            "Type":"CPU"
+        },
+        {
+            "Name":"cpu_adaptive_1",
+            "Type":"CPU"
+        },
+        {
+            "Name":"cpu_adaptive_2",
+            "Type":"CPU"
+        },
+        {
+            "Name":"devfreq-13040000.mali",
+            "Type":"GPU"
+        },
+        {
+            "Name":"mtk-cl-bcct00",
+            "Type":"BATTERY"
+        },
+        {
+            "Name":"mtk-cl-backlight01",
+            "Type":"BATTERY"
+        }
+    ]
+}

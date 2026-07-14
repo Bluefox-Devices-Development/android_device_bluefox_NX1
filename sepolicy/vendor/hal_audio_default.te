@@ -1,0 +1,2 @@
+# Allow audio HAL to read audio device sysfs nodes
+r_dir_file(hal_audio_default, vendor_sysfs_audio)
