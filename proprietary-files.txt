@@ -573,6 +573,12 @@ vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/volte_clientapi_ua.rc
+vendor/lib/libipsec_ims_shr.so
+vendor/lib/libverno.so
+vendor/lib/libvolte_core_shr.so
+vendor/lib/libvolte_xdmc_shr.so
+vendor/lib/vendor.mediatek.hardware.rcs-V1-ndk.so
+vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libutinterface_custom_md.so
