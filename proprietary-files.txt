@@ -880,7 +880,6 @@ vendor/lib64/hw/consumerir.common.so
 # TrustKernel (NX1)
 vendor/bin/hw/android.hardware.gatekeeper-service.trustkernel
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.trustkernel
-vendor/bin/tee
 vendor/bin/tee_check_keybox
 vendor/bin/teed
 vendor/etc/init/android.hardware.gatekeeper-service.trustkernel.rc
