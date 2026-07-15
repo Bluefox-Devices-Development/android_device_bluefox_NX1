@@ -20,3 +20,13 @@ ro.vendor.mtk_cam_security_support=1
 
 # Display
 ro.sf.lcd_density=269
+
+# MediaTek
+ro.vendor.aee.convert64=0
+ro.vendor.have_aeev_feature=1
+ro.vendor.mediatek.platform=MT6768
+ro.vendor.mtk_f2fs_enable=1
+
+# TrustKernel
+ro.vendor.mtk_trustkernel_tee_support=1
+ro.vendor.trustkernel.attest_ids=1
