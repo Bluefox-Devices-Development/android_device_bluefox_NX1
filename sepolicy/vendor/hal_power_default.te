@@ -1,3 +1,0 @@
-# To do powerhint on nodes defined in powerhint.json
-allow hal_power_default vendor_sysfs_gpu:dir search;
-allow hal_power_default vendor_sysfs_gpu:file rw_file_perms;

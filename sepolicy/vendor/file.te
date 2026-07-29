@@ -1,5 +1,2 @@
 # Audio
 type vendor_sysfs_audio, fs_type, sysfs_type;
-
-# GPU
-type vendor_sysfs_gpu, fs_type, sysfs_type;
