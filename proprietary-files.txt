@@ -611,6 +611,7 @@ vendor/lib64/vpp_hdrmeta_handler_plugin.so
 
 # Media (Codec2)
 vendor/bin/hw/android.hardware.media.c2-mediatek-64b
+vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy
