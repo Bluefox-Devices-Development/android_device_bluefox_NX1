@@ -21,10 +21,6 @@
                 {
                     "CdevRequest": "cpu_adaptive_2",
                     "LimitInfo": [ 0, 0, 0, 1, 1, 1, 1 ]
-                },
-                {
-                    "CdevRequest": "devfreq-13040000.mali",
-                    "LimitInfo": [ 0, 0, 0, 2, 5, 12, 20 ]
                 }
             ]
         },
@@ -80,15 +76,7 @@
             "Type":"CPU"
         },
         {
-            "Name":"devfreq-13040000.mali",
-            "Type":"GPU"
-        },
-        {
             "Name":"mtk-cl-bcct00",
-            "Type":"BATTERY"
-        },
-        {
-            "Name":"mtk-cl-backlight01",
             "Type":"BATTERY"
         }
     ]
