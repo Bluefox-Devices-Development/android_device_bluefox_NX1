@@ -132,6 +132,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     chipinfo
 
+# Consumer IR
+PRODUCT_PACKAGES += \
+    android.hardware.consumerir.prebuilt.xml
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek
