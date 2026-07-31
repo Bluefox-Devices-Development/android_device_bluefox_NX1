@@ -46,6 +46,9 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
     (
         'vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek',
+        'vendor/lib/egl/libGLES_mali.so',
+        'vendor/lib/libgpud.so',
+        'vendor/lib/vendor.mediatek.hardware.pq_aidl-V2-ndk.so',
         'vendor/lib64/egl/libGLES_mali.so',
         'vendor/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so',
         'vendor/lib64/hw/mapper.mediatek.so',

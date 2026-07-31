@@ -422,6 +422,36 @@ vendor/etc/mali_platform.config
 vendor/etc/vintf/manifest/manifest_allocator.xml
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 vendor/etc/vintf/manifest/mapper.mediatek.xml
+vendor/lib/arm.graphics-V5-ndk.so
+vendor/lib/arm.mali.platform-V2-ndk.so
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/egl/libGLES_meow.so
+vendor/lib/egl/libMEOW_data.so
+vendor/lib/egl/libMEOW_gift.so
+vendor/lib/egl/libMEOW_qt.so
+vendor/lib/egl/libMEOW_trace.so
+vendor/lib/hw/vulkan.mali.so
+vendor/lib/libDefaultFpsActor.so
+vendor/lib/libFrameRecord.so
+vendor/lib/libNoFpsActor.so
+vendor/lib/libarm_egl_properties_sysprop.so
+vendor/lib/libarm_gralloc_properties_sysprop.so
+vendor/lib/libarm_mali_config_sysprops.so
+vendor/lib/libged.so
+vendor/lib/libgpu_aux.so
+vendor/lib/libgpud.so
+vendor/lib/libgralloc_extra.so
+vendor/lib/libgralloc_metadata.so
+vendor/lib/libgralloctypes_mtk.so
+vendor/lib/libpqhdrmetaparser.so
+vendor/lib/libpqsharememory.so
+vendor/lib/libpqtuning.so
+vendor/lib/libsdrparser.so
+vendor/lib/mt6768/libdpframework.so;SYMLINK=vendor/lib/libdpframework.so
+vendor/lib/mt6768/libmml.so;SYMLINK=vendor/lib/libmml.so
+vendor/lib/mt6768/libpq_sec.so;SYMLINK=vendor/lib/libpq_sec.so
+vendor/lib/vendor.mediatek.hardware.pq@2.0.so
+vendor/lib/vendor.mediatek.hardware.pq_aidl-V2-ndk.so
 vendor/lib64/arm.graphics-V5-ndk.so
 vendor/lib64/arm.mali.platform-V2-ndk.so
 vendor/lib64/egl/libGLES_mali.so
@@ -643,6 +673,7 @@ vendor/lib64/libformatter.so
 # MMS
 vendor/bin/hw/vendor.mediatek.hardware.mms-service
 vendor/etc/init/vendor.mediatek.hardware.mms-service.rc
+vendor/lib/vendor.mediatek.hardware.mms-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mms-V1-ndk.so
 
 # Modules
