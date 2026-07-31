@@ -218,9 +218,13 @@ vendor/lib64/libSonyIMX386PdafLibraryWrapper.so
 vendor/lib64/libSonyIMX519PdafLibrary.so
 vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
 vendor/lib64/gc5025_mipi_raw_IdxMgr.so
+vendor/lib64/gc5025_mipi_raw_tuning.so
 vendor/lib64/imx230_mipi_raw_IdxMgr.so
+vendor/lib64/imx230_mipi_raw_tuning.so
 vendor/lib64/ov5670_mipi_raw_IdxMgr.so
+vendor/lib64/ov5670_mipi_raw_tuning.so
 vendor/lib64/s5k2t7sp_mipi_raw_IdxMgr.so
+vendor/lib64/s5k2t7sp_mipi_raw_tuning.so
 vendor/lib64/libchromanr.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libfeature.face.so
