@@ -8,6 +8,8 @@ Device configuration for Bluefox NX1
 
 The Bluefox NX1 is an Android 15 device based on the MediaTek MT6768 family.
 
+Installation and update instructions are available in [FLASHING.md](FLASHING.md).
+
 ## Device specifications
 
 | Basic                   | Bluefox NX1                               |
