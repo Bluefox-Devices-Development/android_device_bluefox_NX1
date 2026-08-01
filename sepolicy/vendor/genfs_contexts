@@ -2,13 +2,8 @@
 genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-0058                                                                            u:object_r:vendor_sysfs_audio:s0
 
 # Battery info
-genfscon sysfs /devices/platform/11007000.i2c/i2c-0/0-0055/power_supply                                                               u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/11007000.i2c/i2c-0/0-006a/power_supply                                                               u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/11016000.i2c/i2c-5/5-006b/power_supply                                                               u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-000b/power_supply                                                               u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-006a/power_supply                                                               u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/11280000.i2c/i2c-10/10-0055/power_supply                                                             u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-gauge/power_supply                                  u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-001a/power_supply                                                               u:object_r:sysfs_batteryinfo:s0
 
 # Wakeup (https://lkml.org/lkml/2019/8/6/1275)
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-gauge/power_supply/mtk-gauge/wakeup                  u:object_r:sysfs_wakeup:s0
