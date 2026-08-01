@@ -47,14 +47,6 @@
             "VrThreshold": "NaN"
         },
         {
-            "Name":"mtktsbtsnrpa",
-            "Type":"POWER_AMPLIFIER",
-            "ZoneName": "mtktspa",
-            "Multiplier": 0.001,
-            "HotThreshold":[ "NaN", "NaN", "NaN", 68.0, 90.0, 100.0, 110.0 ],
-            "VrThreshold": "NaN"
-        },
-        {
             "Name":"mtktsbtsmdpa",
             "Type":"POWER_AMPLIFIER",
             "Multiplier": 0.001,
@@ -74,10 +66,6 @@
         {
             "Name":"cpu_adaptive_2",
             "Type":"CPU"
-        },
-        {
-            "Name":"mtk-cl-bcct00",
-            "Type":"BATTERY"
         }
     ]
 }
