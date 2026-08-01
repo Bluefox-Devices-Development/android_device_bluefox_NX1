@@ -42,6 +42,13 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libGsFace_ca.so',
     ): blob_fixup()
         .add_needed('libteec.so'),
+    'vendor/bin/hw/android.hardware.biometrics.face-service.example': blob_fixup()
+        .binary_regex_replace(b'/virtual', b'/default'),
+    (
+        'vendor/etc/init/face-example.rc',
+        'vendor/etc/vintf/manifest/face-example.xml',
+    ): blob_fixup()
+        .regex_replace(r'/virtual', '/default'),
     'vendor/bin/mnld': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
     (

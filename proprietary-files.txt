@@ -924,6 +924,12 @@ vendor/lib64/libcv_faceid.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libstfaceunlock.so
 vendor/lib64/libteec.so
+vendor/media/ST_Align_Occlusion_1.6.4.model
+vendor/media/ST_Detect_9.2.0.model
+vendor/media/ST_Liveness_7.37.1.model
+vendor/media/ST_Ocular_2.8.0.model
+vendor/media/ST_Verify_3.77.0.model
+vendor/media/faceunlock/license.lic
 
 # Consumer IR (NX1)
 vendor/bin/hw/android.hardware.ir-service.example

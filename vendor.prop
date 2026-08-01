@@ -21,6 +21,10 @@ ro.vendor.mtk_cam_security_support=1
 # Display
 ro.sf.lcd_density=269
 
+# Face unlock
+ro.vendor.faceunlock.support=1
+ro.vendor.faceunlock.tee=trustkernel
+
 # Infrared
 ro.hardware.consumerir=common
 
