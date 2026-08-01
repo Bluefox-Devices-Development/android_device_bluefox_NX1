@@ -21,6 +21,9 @@ ro.vendor.mtk_cam_security_support=1
 # Display
 ro.sf.lcd_density=269
 
+# Infrared
+ro.hardware.consumerir=common
+
 # MediaTek
 ro.vendor.aee.convert64=0
 ro.vendor.have_aeev_feature=1
