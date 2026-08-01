@@ -11,11 +11,11 @@ genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-rtc/wakeup                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635x-auxadc/wakeup                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10238000.gce/wakeup                                                                                   u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-000b/power_supply/primary_chg/wakeup                                             u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-000b/wakeup                                                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11004000.i2c/i2c-7/7-001a/power_supply/primary_chg/wakeup                                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11007000.i2c/i2c-0/0-0068/wakeup                                                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/wakeup                                                           u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/1100d000.i2c/i2c-6/6-004a/tcpc/type_c_port0/wakeup                                                    u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/1100d000.i2c/i2c-6/6-004a/wakeup                                                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100d000.i2c/i2c-6/6-004e/tcpc/type_c_port0/wakeup                                                    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100d000.i2c/i2c-6/6-004e/wakeup                                                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1100f000.i2c/i2c-3/3-0029/wakeup                                                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11012000.spi2/spi_master/spi2/spi2.0/omnivision_tcm.0/wakeup                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/15020000.imgsys_config/wakeup                                                                         u:object_r:sysfs_wakeup:s0
