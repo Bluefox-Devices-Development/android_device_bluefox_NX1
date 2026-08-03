@@ -19,7 +19,7 @@ ro.vendor.camera3.zsl.default=140
 ro.vendor.mtk_cam_security_support=1
 
 # Display
-ro.sf.lcd_density=269
+ro.sf.lcd_density=240
 
 # Face unlock
 ro.vendor.faceunlock.support=1
