@@ -14,6 +14,14 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'vendor/etc/audio_param/AudioParamOptions.xml',
+        'vendor/etc/audio_param/AudioParamOptions_vext.xml',
+    ): blob_fixup()
+        .regex_replace(
+            r'MTK_BESLOUDNESS_RUN_WITH_HAL" value="no',
+            'MTK_BESLOUDNESS_RUN_WITH_HAL" value="yes',
+        ),
     'system_ext/lib64/libimsma.so': blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
     'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
