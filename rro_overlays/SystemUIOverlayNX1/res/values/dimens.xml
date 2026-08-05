@@ -4,5 +4,5 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <dimen name="lock_icon_padding">36px</dimen>
+    <dimen name="lock_icon_padding">18px</dimen>
 </resources>
