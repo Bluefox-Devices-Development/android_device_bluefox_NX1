@@ -6,6 +6,14 @@
 soong_namespace {
 }
 
+prebuilt_media {
+    name: "NX1BootAnimation",
+    product_specific: true,
+    src: "bootanimation/bootanimation.zip",
+    filename: "bootanimation.zip",
+    symlinks: ["bootanimation-dark.zip"],
+}
+
 cc_prebuilt_binary {
     name: "NX1RemovePackages",
     check_elf_files: false,

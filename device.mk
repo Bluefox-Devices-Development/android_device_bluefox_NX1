@@ -123,6 +123,7 @@ PRODUCT_PACKAGES += \
 
 # Boot
 PRODUCT_PACKAGES += \
+    NX1BootAnimation \
     android.hardware.boot-service.mediatek \
     android.hardware.boot-service.mediatek_recovery
 
