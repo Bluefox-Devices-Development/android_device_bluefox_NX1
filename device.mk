@@ -15,6 +15,10 @@ PRODUCT_PACKAGES += \
     FrameworkOverlayNX1 \
     SystemUIOverlayNX1
 
+# Package exclusions
+PRODUCT_PACKAGES += \
+    NX1RemovePackages
+
 # Shipping API Level
 BOARD_API_LEVEL_PROP_OVERRIDE := 202404
 BOARD_SHIPPING_API_LEVEL := 30

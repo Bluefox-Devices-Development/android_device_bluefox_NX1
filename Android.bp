@@ -5,3 +5,15 @@
 
 soong_namespace {
 }
+
+cc_prebuilt_binary {
+    name: "NX1RemovePackages",
+    check_elf_files: false,
+    overrides: [
+        "SystemUIClocks-Flex",
+    ],
+    strip: {
+        none: true,
+    },
+    srcs: ["NX1RemovePackages"],
+}
