@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<profiles xmlns:launcher="http://schemas.android.com/apk/res-auto" >
+
+    <grid-option
+        launcher:name="2_by_2"
+        launcher:numRows="2"
+        launcher:numColumns="2"
+        launcher:numAllAppsColumns="4"
+        launcher:numFolderRows="2"
+        launcher:numFolderColumns="2"
+        launcher:numHotseatIcons="2"
+        launcher:dbFile="launcher_2_by_2.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder2x2Style"
+        launcher:defaultLayoutId="@xml/default_workspace_2x2"
+        launcher:deviceCategory="phone" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpace="16"
+            launcher:horizontalMargin="22"
+            launcher:hotseatQsbSpace="36"
+            launcher:iconImageSize="157"
+            launcher:iconSizeLandscape="113"
+            launcher:iconTextSize="24"
+            launcher:minCellHeight="221"
+            launcher:minCellWidth="176"
+            launcher:minHeightDps="838"
+            launcher:minWidthDps="367"
+            launcher:name="Pixel 2021"/>
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="3_by_3"
+        launcher:numRows="3"
+        launcher:numColumns="3"
+        launcher:numAllAppsColumns="4"
+        launcher:numFolderRows="2"
+        launcher:numFolderColumns="3"
+        launcher:numHotseatIcons="3"
+        launcher:dbFile="launcher_3_by_3.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder3x3Style"
+        launcher:defaultLayoutId="@xml/default_workspace_3x3"
+        launcher:deviceCategory="phone" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpace="16"
+            launcher:horizontalMargin="22"
+            launcher:hotseatQsbSpace="36"
+            launcher:iconImageSize="89"
+            launcher:iconTextSize="16"
+            launcher:minCellHeight="165"
+            launcher:minCellWidth="112"
+            launcher:minHeightDps="838"
+            launcher:minWidthDps="367"
+            launcher:name="Pixel 2021"/>
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="4_by_4"
+        launcher:numRows="4"
+        launcher:numColumns="4"
+        launcher:numFolderRows="3"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="4"
+        launcher:numExtendedHotseatIcons="6"
+        launcher:dbFile="launcher_4_by_4.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder4x4Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_4x4"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:borderSpace="16"
+            launcher:horizontalMargin="21.5"
+            launcher:iconImageSize="66"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="130"
+            launcher:minCellWidth="80"
+            launcher:canBeDefault="true"
+            launcher:minHeightDps="667"
+            launcher:minWidthDps="276"
+            launcher:name="Pixel 2021"/>
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="4_by_5"
+        launcher:numRows="5"
+        launcher:numColumns="4"
+        launcher:numFolderRows="3"
+        launcher:numFolderColumns="3"
+        launcher:numHotseatIcons="4"
+        launcher:numAllAppsColumns="4"
+        launcher:numExtendedAllAppsColumns="6"
+        launcher:numExtendedHotseatIcons="6"
+        launcher:dbFile="launcher_4_by_5.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder4x5Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_4x5"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:borderSpace="16"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22"
+            launcher:iconImageSize="66"
+            launcher:iconSizeLandscape="54"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="104"
+            launcher:minCellWidth="80"
+            launcher:minHeightDps="838"
+            launcher:minWidthDps="367"
+            launcher:name="Pixel 2021"/>
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="4_by_6"
+        launcher:numRows="6"
+        launcher:numColumns="4"
+        launcher:numFolderRows="3"
+        launcher:numFolderColumns="3"
+        launcher:numHotseatIcons="4"
+        launcher:numAllAppsColumns="4"
+        launcher:numExtendedAllAppsColumns="6"
+        launcher:numExtendedHotseatIcons="6"
+        launcher:dbFile="launcher_4_by_6.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder4x5Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_4x6"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:borderSpace="16"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22"
+            launcher:iconImageSize="66"
+            launcher:iconSizeLandscape="54"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="104"
+            launcher:minCellWidth="80"
+            launcher:minHeightDps="838"
+            launcher:minWidthDps="367"
+            launcher:name="Pixel 2021"/>
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="5_by_5"
+        launcher:numRows="5"
+        launcher:numColumns="5"
+        launcher:numFolderRows="4"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="5"
+        launcher:numExtendedHotseatIcons="6"
+        launcher:dbFile="launcher.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder5x5Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_5x5"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16.0"
+            launcher:allAppsCellHeight="104.0"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:borderSpace="16.0"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22.0"
+            launcher:iconImageSize="57.0"
+            launcher:iconSizeLandscape="59.0"
+            launcher:iconTextSize="12.0"
+            launcher:minCellHeight="108.0"
+            launcher:minCellWidth="61.0"
+            launcher:minHeightDps="750.0"
+            launcher:minWidthDps="387.0"
+            launcher:name="Pixel 2020" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="5_by_6"
+        launcher:numRows="6"
+        launcher:numColumns="5"
+        launcher:numFolderRows="5"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="5"
+        launcher:dbFile="launcher_5_by_6.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder5x6Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_5x6"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16.0"
+            launcher:allAppsCellHeight="104.0"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:borderSpace="16.0"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22.0"
+            launcher:iconImageSize="57.0"
+            launcher:iconSizeLandscape="59.0"
+            launcher:iconTextSize="12.0"
+            launcher:minCellHeight="90.0"
+            launcher:minCellWidth="61.0"
+            launcher:minHeightDps="750.0"
+            launcher:minWidthDps="387.0"
+            launcher:name="Pixel 2020" />
+    </grid-option>
+
+    <grid-option
+        launcher:name="5_by_8"
+        launcher:numRows="8"
+        launcher:numColumns="5"
+        launcher:numFolderRows="6"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="5"
+        launcher:dbFile="launcher_5_by_8.db"
+        launcher:defaultLayoutId="@xml/default_workspace_5x8"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:name="Large Phone"
+            launcher:minWidthDps="406"
+            launcher:minHeightDps="694"
+            launcher:iconImageSize="56"
+            launcher:iconTextSize="13.0"
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="5_by_10"
+        launcher:numRows="10"
+        launcher:numColumns="5"
+        launcher:numFolderRows="6"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="5"
+        launcher:dbFile="launcher_5_by_10.db"
+        launcher:defaultLayoutId="@xml/default_workspace_5x10"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:name="Large Phone"
+            launcher:minWidthDps="406"
+            launcher:minHeightDps="694"
+            launcher:iconImageSize="56"
+            launcher:iconTextSize="13.0"
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="5_by_7"
+        launcher:numRows="7"
+        launcher:numColumns="5"
+        launcher:numFolderRows="6"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="5"
+        launcher:dbFile="launcher_5_by_7.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder5x7Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_5x7"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16.0"
+            launcher:allAppsCellHeight="104.0"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:borderSpace="16.0"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22.0"
+            launcher:iconImageSize="57.0"
+            launcher:iconSizeLandscape="59.0"
+            launcher:iconTextSize="12.0"
+            launcher:minCellHeight="77.14"
+            launcher:minCellWidth="61.0"
+            launcher:minHeightDps="750.0"
+            launcher:minWidthDps="387.0"
+            launcher:name="Pixel 2020" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:allAppsStyle="@style/AllAppsStyle6x5"
+        launcher:cellStyle="@style/CellStyle6x5"
+        launcher:dbFile="launcher_6_by_5.db"
+        launcher:defaultLayoutId="@xml/default_workspace_6x5"
+        launcher:deviceCategory="tablet"
+        launcher:folderStyle="@style/Folder6x5Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_6_5"
+        launcher:isScalable="true"
+        launcher:name="tablet_normal"
+        launcher:numAllAppsColumns="6"
+        launcher:numColumns="6"
+        launcher:numFolderColumns="3"
+        launcher:numFolderRows="3"
+        launcher:numHotseatIcons="6"
+        launcher:numRows="5"
+        launcher:numSearchContainerColumns="3">
+
+        <display-option
+            launcher:allAppsBorderSpaceHorizontal="8"
+            launcher:allAppsBorderSpaceLandscape="16"
+            launcher:allAppsBorderSpaceVertical="16"
+            launcher:allAppsCellHeight="142"
+            launcher:allAppsCellHeightLandscape="126"
+            launcher:allAppsCellWidth="96"
+            launcher:allAppsCellWidthLandscape="126"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpaceHorizontal="16"
+            launcher:borderSpaceLandscapeHorizontal="64"
+            launcher:borderSpaceLandscapeVertical="16"
+            launcher:borderSpaceVertical="64"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="54"
+            launcher:horizontalMarginLandscape="120"
+            launcher:hotseatBarBottomSpace="36"
+            launcher:hotseatBarBottomSpaceLandscape="40"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="56"
+            launcher:iconImageSize="66"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="120"
+            launcher:minCellHeightLandscape="104"
+            launcher:minCellWidth="102"
+            launcher:minCellWidthLandscape="120"
+            launcher:minHeightDps="748"
+            launcher:minWidthDps="800"
+            launcher:name="Pixel C"
+            launcher:transientTaskbarIconSize="57.2"/>
+
+        <display-option
+            launcher:allAppsBorderSpaceHorizontal="8"
+            launcher:allAppsBorderSpaceLandscapeHorizontal="40"
+            launcher:allAppsBorderSpaceLandscapeVertical="16"
+            launcher:allAppsBorderSpaceVertical="20"
+            launcher:allAppsCellHeight="142"
+            launcher:allAppsCellHeightLandscape="150"
+            launcher:allAppsCellWidth="120"
+            launcher:allAppsCellWidthLandscape="126"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpaceHorizontal="16"
+            launcher:borderSpaceLandscapeHorizontal="90"
+            launcher:borderSpaceLandscapeVertical="16"
+            launcher:borderSpaceVertical="110"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="70"
+            launcher:horizontalMarginLandscape="169"
+            launcher:hotseatBarBottomSpace="36"
+            launcher:hotseatBarBottomSpaceLandscape="40"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="56"
+            launcher:iconImageSize="66"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="120"
+            launcher:minCellHeightLandscape="130"
+            launcher:minCellWidth="120"
+            launcher:minCellWidthLandscape="120"
+            launcher:minHeightDps="880"
+            launcher:minWidthDps="941"
+            launcher:name="Pixel C (display: small)"
+            launcher:transientTaskbarIconSize="57.2"/>
+
+        <display-option
+            launcher:allAppsBorderSpaceHorizontal="8"
+            launcher:allAppsBorderSpaceLandscapeHorizontal="12"
+            launcher:allAppsBorderSpaceLandscapeVertical="16"
+            launcher:allAppsBorderSpaceVertical="12"
+            launcher:allAppsCellHeight="142"
+            launcher:allAppsCellHeightLandscape="110"
+            launcher:allAppsCellWidth="92"
+            launcher:allAppsCellWidthLandscape="126"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpaceHorizontal="16"
+            launcher:borderSpaceLandscapeHorizontal="50"
+            launcher:borderSpaceLandscapeVertical="16"
+            launcher:borderSpaceVertical="39.5"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="45"
+            launcher:horizontalMarginLandscape="94"
+            launcher:hotseatBarBottomSpace="36"
+            launcher:hotseatBarBottomSpaceLandscape="40"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="56"
+            launcher:iconImageSize="66"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="120"
+            launcher:minCellHeightLandscape="90"
+            launcher:minCellWidth="92"
+            launcher:minCellWidthLandscape="120"
+            launcher:minHeightDps="676"
+            launcher:minWidthDps="723"
+            launcher:name="Pixel C (display: large)"
+            launcher:transientTaskbarIconSize="57.2"/>
+
+        <display-option
+            launcher:allAppsBorderSpaceHorizontal="8"
+            launcher:allAppsBorderSpaceLandscapeHorizontal="8"
+            launcher:allAppsBorderSpaceLandscapeVertical="16"
+            launcher:allAppsBorderSpaceVertical="8"
+            launcher:allAppsCellHeight="142"
+            launcher:allAppsCellHeightLandscape="94"
+            launcher:allAppsCellWidth="84"
+            launcher:allAppsCellWidthLandscape="126"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconSizeLandscape="52"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpaceHorizontal="16"
+            launcher:borderSpaceLandscapeHorizontal="38"
+            launcher:borderSpaceLandscapeVertical="16"
+            launcher:borderSpaceVertical="16"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="36"
+            launcher:horizontalMarginLandscape="71"
+            launcher:hotseatBarBottomSpace="36"
+            launcher:hotseatBarBottomSpaceLandscape="40"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="56"
+            launcher:iconImageSize="66"
+            launcher:iconSizeLandscape="52"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="120"
+            launcher:minCellHeightLandscape="79.5"
+            launcher:minCellWidth="84"
+            launcher:minCellWidthLandscape="120"
+            launcher:minHeightDps="613"
+            launcher:minWidthDps="656"
+            launcher:name="Pixel C (display: larger)"/>
+
+        <display-option
+            launcher:allAppsBorderSpaceHorizontal="8"
+            launcher:allAppsBorderSpaceLandscapeHorizontal="8"
+            launcher:allAppsBorderSpaceLandscapeVertical="16"
+            launcher:allAppsBorderSpaceVertical="4"
+            launcher:allAppsCellHeight="142"
+            launcher:allAppsCellHeightLandscape="84"
+            launcher:allAppsCellWidth="78"
+            launcher:allAppsCellWidthLandscape="126"
+            launcher:allAppsIconSize="66"
+            launcher:allAppsIconSizeLandscape="48"
+            launcher:allAppsIconTextSize="14"
+            launcher:borderSpaceHorizontal="16"
+            launcher:borderSpaceLandscapeHorizontal="28"
+            launcher:borderSpaceLandscapeVertical="16"
+            launcher:borderSpaceVertical="16"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="31"
+            launcher:horizontalMarginLandscape="53"
+            launcher:hotseatBarBottomSpace="36"
+            launcher:hotseatBarBottomSpaceLandscape="40"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="56"
+            launcher:iconImageSize="66"
+            launcher:iconSizeLandscape="48"
+            launcher:iconTextSize="14"
+            launcher:minCellHeight="120"
+            launcher:minCellHeightLandscape="74"
+            launcher:minCellWidth="77"
+            launcher:minCellWidthLandscape="120"
+            launcher:minHeightDps="564"
+            launcher:minWidthDps="603"
+            launcher:name="Pixel C (display: largest)"/>
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="6_by_7"
+        launcher:numRows="7"
+        launcher:numColumns="6"
+        launcher:numFolderRows="6"
+        launcher:numFolderColumns="4"
+        launcher:numHotseatIcons="6"
+        launcher:dbFile="launcher_6_by_7.db"
+        launcher:isScalable="true"
+        launcher:folderStyle="@style/Folder5x7Style"
+        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_split"
+        launcher:defaultLayoutId="@xml/default_workspace_6x7"
+        launcher:deviceCategory="phone|multi_display" >
+
+        <display-option
+            launcher:allAppsBorderSpace="16.0"
+            launcher:allAppsCellHeight="104.0"
+            launcher:borderSpace="16.0"
+            launcher:canBeDefault="true"
+            launcher:horizontalMargin="22.0"
+            launcher:iconImageSize="57.0"
+            launcher:iconSizeLandscape="59.0"
+            launcher:iconTextSize="12.0"
+            launcher:minCellHeight="77.14"
+            launcher:minCellWidth="61.0"
+            launcher:minHeightDps="750.0"
+            launcher:minWidthDps="387.0"
+            launcher:name="Pixel 2020" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="6_by_8"
+        launcher:numRows="8"
+        launcher:numColumns="6"
+        launcher:numFolderRows="5"
+        launcher:numFolderColumns="5"
+        launcher:numHotseatIcons="6"
+        launcher:dbFile="launcher_6_by_8.db"
+        launcher:defaultLayoutId="@xml/default_workspace_6x8"
+        launcher:deviceCategory="phone|multi_display|tablet" >
+
+        <display-option
+            launcher:name="Large Phone"
+            launcher:minWidthDps="406"
+            launcher:minHeightDps="694"
+            launcher:minCellHeight="67"
+            launcher:minCellWidth="61"
+            launcher:borderSpace="16"
+            launcher:horizontalMargin="22"
+            launcher:hotseatQsbSpace="36"
+            launcher:iconImageSize="48"
+            launcher:iconTextSize="12.0"
+            launcher:allAppsBorderSpace="14"
+            launcher:allAppsCellHeight="104"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="6_by_10"
+        launcher:numRows="10"
+        launcher:numColumns="6"
+        launcher:numFolderRows="5"
+        launcher:numFolderColumns="5"
+        launcher:numHotseatIcons="6"
+        launcher:dbFile="launcher_6_by_10.db"
+        launcher:defaultLayoutId="@xml/default_workspace_6x10"
+        launcher:deviceCategory="phone|multi_display|tablet" >
+
+        <display-option
+            launcher:name="Large Phone"
+            launcher:minWidthDps="406"
+            launcher:minHeightDps="694"
+            launcher:minCellHeight="54"
+            launcher:minCellWidth="61"
+            launcher:borderSpace="16"
+            launcher:horizontalMargin="22"
+            launcher:hotseatQsbSpace="36"
+            launcher:iconImageSize="42"
+            launcher:iconTextSize="11.0"
+            launcher:allAppsBorderSpace="14"
+            launcher:allAppsCellHeight="104"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
+    <grid-option
+        launcher:name="fixed_landscape_mode"
+        launcher:numFolderRows="2"
+        launcher:numFolderColumns="3"
+        launcher:numFolderRowsLandscape="2"
+        launcher:folderStyle="@style/FolderStyleDefault"
+        launcher:numHotseatIcons="4"
+        launcher:numExtendedHotseatIcons="8"
+        launcher:numAllAppsColumns="8"
+        launcher:numExtendedAllAppsColumns="8"
+        launcher:workspaceSpecsId="@xml/spec_handheld_workspace_3_row"
+        launcher:allAppsSpecsId="@xml/spec_handheld_all_apps_3_row"
+        launcher:folderSpecsId="@xml/spec_handheld_folder_3_row"
+        launcher:hotseatSpecsId="@xml/spec_handheld_hotseat_3_row"
+        launcher:workspaceCellSpecsId="@xml/spec_handheld_workspace_cell_3_row"
+        launcher:allAppsCellSpecsId="@xml/spec_all_apps_cell_match_workspace"
+        launcher:isScalable="true"
+        launcher:inlineQsb="landscape"
+        launcher:devicePaddingId="@xml/paddings_3_row"
+        launcher:gridSizeSpecsId="@xml/spec_col_count_3_row"
+        launcher:isFixedLandscape="true"
+        launcher:defaultLayoutId="@xml/default_workspace_8x3"
+        launcher:deviceCategory="phone">
+
+        <display-option
+            launcher:name="Fixed Landscape"
+            launcher:minWidthDps="387"
+            launcher:minHeightDps="750"
+            launcher:minCellHeight="108"
+            launcher:minCellWidth="61"
+            launcher:borderSpace="16"
+            launcher:horizontalMargin="22"
+            launcher:iconImageSize="57"
+            launcher:iconSizeLandscape="59"
+            launcher:iconTextSize="12"
+            launcher:allAppsBorderSpace="16"
+            launcher:allAppsCellHeight="104"
+            launcher:startAlignTaskbar="true"
+            launcher:startAlignTaskbarLandscape="true"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
+</profiles>

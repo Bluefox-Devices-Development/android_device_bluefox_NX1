@@ -10,6 +10,12 @@ TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 1168
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(DEVICE_PATH)/overlay/packages/apps/Launcher3
+
 PRODUCT_PACKAGES += \
     ApertureOverlayNX1 \
     FrameworkOverlayNX1 \
